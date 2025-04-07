@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+package test;
+
+message TestMsg {
+   uint32 syncword = 1;
+   repeated uint32 payload = 2;
+}
